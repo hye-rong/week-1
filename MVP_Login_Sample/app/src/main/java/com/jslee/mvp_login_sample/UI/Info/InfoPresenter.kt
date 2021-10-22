@@ -1,6 +1,6 @@
-package com.jslee.mvp_login_sample.Presenter.Info
+package com.jslee.mvp_login_sample.UI.Info
 
-import com.jslee.mvp_login_sample.Model.LoginRepository
+import com.jslee.mvp_login_sample.Data.Login.Source.LoginRepository
 
 class InfoPresenter(
     private var infoView: InfoContract.View?,

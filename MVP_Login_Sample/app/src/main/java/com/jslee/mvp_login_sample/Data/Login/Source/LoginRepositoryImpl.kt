@@ -1,6 +1,6 @@
-package com.jslee.mvp_login_sample.Model
+package com.jslee.mvp_login_sample.Data.Login.Source
 
-import com.jslee.mvp_login_sample.Model.Local.LoginLocalDataSource
+import com.jslee.mvp_login_sample.Data.Login.Source.Local.LoginLocalDataSource
 
 class LoginRepositoryImpl(private val loginLocalDataSource: LoginLocalDataSource): LoginRepository {
     override var autoLogin: Boolean

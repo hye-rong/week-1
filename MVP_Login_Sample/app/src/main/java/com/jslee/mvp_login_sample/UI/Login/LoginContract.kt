@@ -1,4 +1,4 @@
-package com.jslee.mvp_login_sample.Presenter.Login
+package com.jslee.mvp_login_sample.UI.Login
 
 interface LoginContract {
 
@@ -24,7 +24,7 @@ interface LoginContract {
 
     interface Presenter {
 
-        fun bindView(view: LoginContract.View)
+        fun bindView(view: View)
 
         fun dropView()
 

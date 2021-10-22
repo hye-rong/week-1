@@ -1,6 +1,6 @@
-package com.jslee.mvp_login_sample.Presenter.SignUp
+package com.jslee.mvp_login_sample.UI.SignUp
 
-import com.jslee.mvp_login_sample.Model.LoginRepository
+import com.jslee.mvp_login_sample.Data.Login.Source.LoginRepository
 
 class SignUpPresenter(
     private var signUpView: SignUpContract.View?,

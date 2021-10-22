@@ -1,4 +1,4 @@
-package com.jslee.mvp_login_sample.Model.Local
+package com.jslee.mvp_login_sample.Data.Login.Source.Local
 
 interface LoginLocalDataSource {
     var autoLogin: Boolean

@@ -1,4 +1,4 @@
-package com.jslee.mvp_login_sample.Presenter.Info
+package com.jslee.mvp_login_sample.UI.Info
 
 interface InfoContract {
 
@@ -10,7 +10,7 @@ interface InfoContract {
     }
 
     interface Presenter {
-        fun bindView(view: InfoContract.View)
+        fun bindView(view: View)
 
         fun dropView()
 

@@ -1,13 +1,12 @@
-package com.jslee.mvp_login_sample.View
+package com.jslee.mvp_login_sample.UI.Info
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.jslee.mvp_login_sample.Model.Local.LoginLocalDataSourceImpl
-import com.jslee.mvp_login_sample.Model.LoginRepositoryImpl
-import com.jslee.mvp_login_sample.Presenter.Info.InfoContract
-import com.jslee.mvp_login_sample.Presenter.Info.InfoPresenter
+import com.jslee.mvp_login_sample.Data.Login.Source.Local.LoginLocalDataSourceImpl
+import com.jslee.mvp_login_sample.Data.Login.Source.LoginRepositoryImpl
+import com.jslee.mvp_login_sample.UI.Login.LoginActivity
 import com.jslee.mvp_login_sample.Utils.PreferencesUtils
 import com.jslee.mvp_login_sample.databinding.ActivityInfoBinding
 

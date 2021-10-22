@@ -1,8 +1,9 @@
-package com.jslee.mvp_login_sample.Model.Local
+package com.jslee.mvp_login_sample.Data.Login.Source.Local
 
 import com.jslee.mvp_login_sample.Utils.PreferencesUtils
 
-class LoginLocalDataSourceImpl(private val preferencesUtils: PreferencesUtils): LoginLocalDataSource {
+class LoginLocalDataSourceImpl(private val preferencesUtils: PreferencesUtils):
+    LoginLocalDataSource {
     override var autoLogin: Boolean
         get() = preferencesUtils.autoLoginStatus
         set(value) {

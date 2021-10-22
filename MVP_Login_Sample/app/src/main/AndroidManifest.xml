@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVP_Login_Sample">
         <activity
-            android:name=".View.SignUpActivity"
+            android:name=".UI.SignUp.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".View.InfoActivity"
+            android:name=".UI.Info.InfoActivity"
             android:exported="true" />
         <activity
-            android:name=".View.LoginActivity"
+            android:name=".UI.Login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

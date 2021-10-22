@@ -1,4 +1,4 @@
-package com.jslee.mvp_login_sample.Model
+package com.jslee.mvp_login_sample.Data.Login.Source
 
 interface LoginRepository {
 

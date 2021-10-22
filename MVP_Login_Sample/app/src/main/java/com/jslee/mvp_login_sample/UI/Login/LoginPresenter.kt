@@ -1,6 +1,6 @@
-package com.jslee.mvp_login_sample.Presenter.Login
+package com.jslee.mvp_login_sample.UI.Login
 
-import com.jslee.mvp_login_sample.Model.LoginRepository
+import com.jslee.mvp_login_sample.Data.Login.Source.LoginRepository
 
 class LoginPresenter(
     private var loginView: LoginContract.View?,

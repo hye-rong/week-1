@@ -1,4 +1,4 @@
-package com.jslee.mvp_login_sample.Presenter.SignUp
+package com.jslee.mvp_login_sample.UI.SignUp
 
 interface SignUpContract {
 
@@ -17,7 +17,7 @@ interface SignUpContract {
 
     interface Presenter {
 
-        fun bindView(view: SignUpContract.View)
+        fun bindView(view: View)
 
         fun dropView()
 
